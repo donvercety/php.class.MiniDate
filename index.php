@@ -1,4 +1,4 @@
-<?php include_once 'Date.php'; $date = new Date(); ?>
+<?php include_once 'Date.php'; $date = new MiniDate(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
