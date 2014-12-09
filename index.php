@@ -10,6 +10,7 @@
 	<?php $date->setTimeZone( 'Europe/Sofia' ); ?>
 
 	<p>Now:  <?php echo $date->now(); ?></p>
+	<p>Now:  <?php echo $date->now('H:m d-m-Y'); ?></p>
 	<p>Date: <?php echo $date->nowDate(); ?></p>
 	<p>Time: <?php echo $date->nowTime(); ?></p>
 
@@ -23,7 +24,8 @@
 
 	<!-- And the all in one method. -->
 	<p><?php echo $date->addTo( $date->now(), '6:Days' ); ?> - Adding 6 days to NOW! </p>
-	<p><?php echo $date->addTo( '2014-10-22 15:00:21', '1:Month' ); ?> - Adding 1 month to '2014-10-22 15:00:21' (spesific date)! </p>
+	<p><?php echo $date->addTo( '2014-10-22 15:00:21', '1:Month' ); ?> - Adding 1 month to '2014-10-22 15:00:21' (specific date)! </p>
+	<p><?php echo $date->addTo( '2014-10-22 15:00:21', '1:Month', 'H:i d-m-Y ' ); ?> - using custom format </p>
 
 </body>
 </html>
