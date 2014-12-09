@@ -10,7 +10,7 @@
  *
  * @author Tommy Vercety
  */
-class Date {
+class MiniDate {
 
 	/**
 	 * Default timeoffset.
