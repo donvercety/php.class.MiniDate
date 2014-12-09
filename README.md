@@ -39,3 +39,4 @@ $date->addTo( '2014-10-22 15:00:21', '1:Month' ); // adding 1 month to a specifi
 // using custom format
 $date->addTo( '2014-10-22 15:00:21', '1:Month', 'H:i d-m-Y ' );
 ```
+Time formats at [php.net](http://php.net/manual/en/function.date.php)
