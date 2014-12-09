@@ -8,7 +8,7 @@ Version 0.6
 **Simple usage:**
 ```php
 include_once 'Date.php';
-$date = new Date();
+$date = new MiniDate();
 
 // setting the default timezone
 $date->setTimeZone( 'Europe/Sofia' ); 
